@@ -1,0 +1,38 @@
+-Stack
+--PUSH and POP
+--Using a linked list 
+-Queue
+--circular queue
+--difference b/w normal queue and circular queue
+--enqueue & dequeue (Insert and delete using pointers and also array implementation)
+--Application of queue
+-Linked List
+--doubly linked list
+--search,delete, add elements 
+
+-Sort
+--bubble sort
+--heap sort
+--merge sort
+--selection sort
+--insertion sort
+-- Time Complexity of each 
+
+-Search
+--Linear 
+--Binary
+
+
+-Complexity
+--Time 
+--Space
+
+Explain
+--Data Structure
+--Algorithm 
+-- Performance of Algorithm
+
+store ele in the array
+explain merge sort (nlogn)
+start iterating the ele in the array
+The element is present in i index(array)
