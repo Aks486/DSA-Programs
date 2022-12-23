@@ -114,18 +114,18 @@ void delete(node *root, int ele)
 	if(root==NULL)
 	 return;
 		else if(ele<root->data)
-		  root->lch=delete(root->lch,root->data);
+		  root->lch=delete(root->lch,ele);
 		else if(ele>root->data)
-		  root->rch=delete(root->rch,root->data);
+		  root->rch=delete(root->rch,ele);
 			else{
 				 if(root->lch==NULL){
 						node *temp=root->rch;
-						free(temp);
+						free(root);
 						return temp;
 						}
 					else if(root->rch==NULL){
-						node *temp=root->rch;
-						free(temp);
+						node *temp=root->lch;
+						free(root);
 						return temp;
 						}
 				node *next = InorderNext(root->rch);
