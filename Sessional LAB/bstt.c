@@ -109,7 +109,7 @@ void printcurrentlevel(bstt *root,int level)
 		printcurrentlevel(root->rch,level-1);
 	}
 }
-void delete(node *root, int ele)
+node* delete(node *root, int ele)
 {
 	if(root==NULL)
 	 return;
@@ -131,4 +131,6 @@ void delete(node *root, int ele)
 				node *next = InorderNext(root->rch);
 				root->data = next->data;
 				root->rch=delete(root->rch,root->data;
+    }
+				return root;
 }
